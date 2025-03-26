@@ -45,6 +45,7 @@
             btn_Calcular_Hash.TabIndex = 0;
             btn_Calcular_Hash.Text = "Calcular Hash";
             btn_Calcular_Hash.UseVisualStyleBackColor = false;
+            btn_Calcular_Hash.Click += btn_Calcular_Hash_Click;
             // 
             // btn_Escanear
             // 
