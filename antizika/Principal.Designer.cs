@@ -1,6 +1,6 @@
 ﻿namespace antizika
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             btn_Calcular_Hash = new Button();
             btn_Escanear = new Button();
             btn_EscanPasta = new Button();

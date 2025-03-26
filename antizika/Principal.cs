@@ -2,9 +2,13 @@ using System.Security.Cryptography;
 
 namespace antizika
 {
-    public partial class Form1 : Form
+    public partial class Principal : Form
     {
-        public Form1()
+        // Conexao com Banco De Dado
+        private readonly string _conexao = antizika.Properties.Settings.Default.Conexao;
+
+
+        public Principal()
         {
             InitializeComponent();
         }
